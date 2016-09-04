@@ -14,6 +14,10 @@ Finding appropriate function to look at (**main**, **sym.main**, **entry0**):
 s main
 ```
 
+  * ```aa``` analyzes binary (more aaaa!)
+  * ```f ~str``` grep for fragment of symbol "str"
+  * ```! rabin2 -I ./file``` information about file (binary format & arch, nx use, crypto found, language detected, disabled ASLR (PIC=false), canary, etc.)
+
 Displaying what's inside (20 instructions at a time):
 ```
 pd 20
@@ -41,6 +45,12 @@ afvbn local_8h buffer
 > I'm pretty sure this command was called called ```afvn``` before. nvm.
 
 ## Debugging (dynamic analysis)
+
+Show stack in clear format:
+```pxr 40 @ esp```
+```
+
+
 
 ### Getting on right track
 
