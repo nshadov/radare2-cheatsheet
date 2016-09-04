@@ -14,7 +14,7 @@ Finding appropriate function to look at (**main**, **sym.main**, **entry0**):
 s main
 ```
 
-  * ```aa``` analyzes binary (more aaaa!)
+  * ```aa``` analyzes binary (more ```aaaa```!)
   * ```f ~str``` grep for fragment of symbol "str"
   * ```! rabin2 -I ./file``` information about file (binary format & arch, nx use, crypto found, language detected, disabled ASLR (PIC=false), canary, etc.)
 
